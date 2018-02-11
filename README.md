@@ -1,6 +1,6 @@
-# Phoenix 1.3 with Bootstrap 4
+# Phoenix 1.3 with Bootstrap 4 and Font Awesome 4.7
 
-This is an example of using Phoenix with Bootstrap.  One of the example Bootstrap templates is being used.  The main changes to the default install is in /assets/package.json, /assets/brunch-config.js, and /assets/css/* (namely that app.css was renamed to app.scss and some custom css was imported). 
+This is an example of using Phoenix with Bootstrap.  One of the example Bootstrap templates is being used.  The main changes to the default install is in /assets/package.json, /assets/brunch-config.js, and /assets/css/* (namely that app.css was renamed to app.scss and some custom css was imported).
 
 To start Phoenix:
 
