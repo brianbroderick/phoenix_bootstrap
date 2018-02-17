@@ -40,7 +40,7 @@ exports.config = {
   // Phoenix paths configuration
   paths: {
     // Dependencies and current project directories to watch
-    watched: ["static", "css", "js", "vendor"],
+    watched: ["static", "css", "js", "scss", "vendor"],
     // Where to compile files to
     public: "../priv/static"
   },
@@ -56,7 +56,7 @@ exports.config = {
     },
     sass: {
       options: {
-        includePaths: ["node_modules/bootstrap/scss", "node_modules/font-awesome/scss"], // tell sass-brunch where to look for files to @import
+        includePaths: ["node_modules/bootstrap/scss", "node_modules/font-awesome/scss"], // for sass-brunch to @import files
         precision: 8 // minimum precision required by bootstrap
       }
     }
@@ -71,7 +71,7 @@ exports.config = {
   npm: {
     enabled: true,
     globals: {
-      // Bootstrap JavaScript requires both '$', 'jQuery', and Tether in global scope
+      // Bootstrap JavaScript requires both '$', 'jQuery'
       $: 'jquery',
       jQuery: 'jquery',
       bootstrap: 'bootstrap' // require Bootstrap JavaScript globally too
