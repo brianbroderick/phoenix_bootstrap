@@ -26,7 +26,7 @@ $ npm install --save bootstrap@4.0.0 font-awesome jquery
 ```
 $ npm install --save-dev sass-brunch copycat-brunch
 ```
-4. Add sass-brunch, font-awesome, and copycat config to brunch
+4. Add sass-brunch, font-awesome, and copycat config to assets/brunch-config.js
 ```
 // Configure your plugins
 plugins: {
